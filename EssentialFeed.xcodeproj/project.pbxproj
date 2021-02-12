@@ -87,8 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				00CD349F25D6FC3B00C19F32 /* Feed API */,
-				00A2B4AD25D6AC0D008C5D53 /* Supporting Files */,
 				001D885825D6AF5800A8C8C8 /* Feed Feature */,
+				00A2B4AD25D6AC0D008C5D53 /* Supporting Files */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
