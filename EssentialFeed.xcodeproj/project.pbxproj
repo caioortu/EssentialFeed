@@ -54,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001D885825D6AF5800A8C8C8 /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				00A2B4A925D6ABD4008C5D53 /* FeedItem.swift */,
+				001D885425D6ADC500A8C8C8 /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
+			sourceTree = "<group>";
+		};
 		00A2B48325D6ABB8008C5D53 = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				00A2B4AD25D6AC0D008C5D53 /* Supporting Files */,
-				00A2B4A925D6ABD4008C5D53 /* FeedItem.swift */,
-				001D885425D6ADC500A8C8C8 /* FeedLoader.swift */,
+				001D885825D6AF5800A8C8C8 /* Feed Feature */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
