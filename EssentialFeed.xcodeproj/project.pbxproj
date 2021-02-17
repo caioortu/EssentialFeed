@@ -13,6 +13,7 @@
 		00A2B49E25D6ABB8008C5D53 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A2B49025D6ABB8008C5D53 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00A2B4AA25D6ABD4008C5D53 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2B4A925D6ABD4008C5D53 /* FeedItem.swift */; };
 		00CD34A325D6FC5800C19F32 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD34A225D6FC5800C19F32 /* RemoteFeedLoader.swift */; };
+		00CD34AB25DD532100C19F32 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD34AA25DD532100C19F32 /* HTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		00A2B49D25D6ABB8008C5D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A2B4A925D6ABD4008C5D53 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		00CD34A225D6FC5800C19F32 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
+		00CD34AA25DD532100C19F32 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				00CD34A225D6FC5800C19F32 /* RemoteFeedLoader.swift */,
+				00CD34AA25DD532100C19F32 /* HTTPClient.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				001D885525D6ADC500A8C8C8 /* FeedLoader.swift in Sources */,
 				00CD34A325D6FC5800C19F32 /* RemoteFeedLoader.swift in Sources */,
+				00CD34AB25DD532100C19F32 /* HTTPClient.swift in Sources */,
 				00A2B4AA25D6ABD4008C5D53 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
