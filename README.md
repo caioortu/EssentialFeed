@@ -1,5 +1,7 @@
 # Essential Feed App – Image Feed Feature
 
+[![Build Status](https://travis-ci.com/caioortu/EssentialFeed.svg?token=JTbgzjVwpyyddqfs5sfa&branch=main)](https://travis-ci.com/caioortu/EssentialFeed)
+
 ## BDD Specs
 
 ### Story: Customer requests to see their image feed
