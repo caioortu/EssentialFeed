@@ -321,6 +321,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		0077BF0E2605680300F30E92 /* Feed UI */ = {
+			isa = PBXGroup;
+			children = (
+				0077BEDF2605648200F30E92 /* Controllers */,
+				0077BEE02605648C00F30E92 /* Views */,
+			);
+			path = "Feed UI";
+			sourceTree = "<group>";
+		};
 		00A2B48325D6ABB8008C5D53 = {
 			isa = PBXGroup;
 			children = (
@@ -394,8 +403,7 @@
 			isa = PBXGroup;
 			children = (
 				00A959982600DA9600545C93 /* Info.plist */,
-				0077BEDF2605648200F30E92 /* Controllers */,
-				0077BEE02605648C00F30E92 /* Views */,
+				0077BF0E2605680300F30E92 /* Feed UI */,
 			);
 			path = EssentialFeediOS;
 			sourceTree = "<group>";
