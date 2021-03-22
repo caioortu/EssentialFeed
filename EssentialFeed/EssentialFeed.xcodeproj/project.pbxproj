@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0002A68826091830004B7D22 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0002A68726091830004B7D22 /* Feed.storyboard */; };
 		0002A68F26091846004B7D22 /* Feed.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0002A68E26091846004B7D22 /* Feed.xcassets */; };
+		0002A69B26091FAF004B7D22 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0002A69A26091FAF004B7D22 /* UITableView+Dequeueing.swift */; };
 		001D885525D6ADC500A8C8C8 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D885425D6ADC500A8C8C8 /* FeedLoader.swift */; };
 		001D885C25D6B08100A8C8C8 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D885B25D6B08100A8C8C8 /* LoadFeedFromRemoteUseCaseTests.swift */; };
 		002716E125F7E4B000E303F2 /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002716E025F7E4B000E303F2 /* CoreDataFeedStoreTests.swift */; };
@@ -130,6 +131,7 @@
 /* Begin PBXFileReference section */
 		0002A68726091830004B7D22 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		0002A68E26091846004B7D22 /* Feed.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Feed.xcassets; sourceTree = "<group>"; };
+		0002A69A26091FAF004B7D22 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
 		001D885425D6ADC500A8C8C8 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		001D885B25D6B08100A8C8C8 /* LoadFeedFromRemoteUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromRemoteUseCaseTests.swift; sourceTree = "<group>"; };
 		002716E025F7E4B000E303F2 /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
@@ -330,6 +332,7 @@
 			children = (
 				005F347B2601621400AE5F40 /* FeedImageCell.swift */,
 				005F348226016C1D00AE5F40 /* UIView+Shimmering.swift */,
+				0002A69A26091FAF004B7D22 /* UITableView+Dequeueing.swift */,
 				0002A68726091830004B7D22 /* Feed.storyboard */,
 				0002A68E26091846004B7D22 /* Feed.xcassets */,
 			);
@@ -841,6 +844,7 @@
 				0077BF162605684A00F30E92 /* FeedImageDataLoader.swift in Sources */,
 				00ACB3792608EA5600D15635 /* FeedViewModel.swift in Sources */,
 				005F348326016C1D00AE5F40 /* UIView+Shimmering.swift in Sources */,
+				0002A69B26091FAF004B7D22 /* UITableView+Dequeueing.swift in Sources */,
 				00ACB3722608EA3100D15635 /* FeedLoadingViewModel.swift in Sources */,
 				005F346D260150AC00AE5F40 /* FeedViewController.swift in Sources */,
 				00ACB3662608E07E00D15635 /* FeedImagePresenter.swift in Sources */,
