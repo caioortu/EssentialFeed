@@ -249,13 +249,13 @@
 			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
-		003EE4792606325E00A58A28 /* Models */ = {
+		003EE4792606325E00A58A28 /* Feed Presentation */ = {
 			isa = PBXGroup;
 			children = (
 				003EE47A2606329D00A58A28 /* FeedViewModel.swift */,
 				003EE4812608CCBE00A58A28 /* FeedImageViewModel.swift */,
 			);
-			path = Models;
+			path = "Feed Presentation";
 			sourceTree = "<group>";
 		};
 		00500E7F25F8E6E10037C090 /* CoreData */ = {
@@ -348,7 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				0077BF2F26056BDD00F30E92 /* Composers */,
-				003EE4792606325E00A58A28 /* Models */,
+				003EE4792606325E00A58A28 /* Feed Presentation */,
 				0077BEDF2605648200F30E92 /* Controllers */,
 				0077BEE02605648C00F30E92 /* Views */,
 			);
